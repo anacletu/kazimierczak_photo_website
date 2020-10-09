@@ -57,6 +57,22 @@ body {
     font-size: 1.3rem;
 }
 
+.fa-instagram:hover,
+.fa-envelope-o:hover {
+    color: rgba(255,255,255,.8);
+}
+
+/* Language link */
+
+#language a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
+#language a:hover {
+    color: whitesmoke;
+}
+
 /* Toggler animation */
 
 .icon-bar {
@@ -85,7 +101,7 @@ body {
 .navbar-toggler {
     border: none;
     background: transparent;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .navbar-toggler .top-bar {
